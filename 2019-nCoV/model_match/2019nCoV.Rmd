@@ -1,0 +1,44 @@
+---
+title: "2019 nCoV 感染人数预测报告"
+output: html_document
+author: "Z.Y·Wang"
+date: '2020-02-04'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(devtools)
+install_github("GuangchuangYu/nCov2019")
+library(nCov2019)
+x <- get_nCov2019()  #import data
+
+library(deSolve)
+library(ggplot2)
+library()
+```
+
+## 概况
+
+## 模型SEIR
+
+```{r}
+
+```
+
+## 参数估计
+这里采用
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
